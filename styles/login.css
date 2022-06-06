@@ -1,0 +1,42 @@
+html{
+  background: url('../img/background2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body{
+  background-color: inherit;
+}
+
+.full-width {
+  min-height: 100vh;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 42, 153, 0.2);
+}
+
+form{
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+
+@media (max-width: 575px) {
+  form {
+    width: 100%;
+  }
+
+}
+
+.link1 {
+  text-decoration: none;
+  color: rgb(0, 93, 175);
+
+}
+
+.link1:hover {
+  color: rgb(0, 93, 175);
+  text-shadow: 2px 2px 2px rgba(201, 201, 201, 0.3);
+  text-decoration: underline;
+}
+
